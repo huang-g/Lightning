@@ -73,6 +73,16 @@ void keyPressed() {
     fill(0,0,0);
     stroke(0,0,0);
     rect(0,0,500,500);
+    
+    for (int i = 0; i < 10; i++) {
+      lineColor1[i] = 0;
+    }
+    
+    x1[0] = 250;
+    y1[0] = 250;
+    lineColor1[0] = randomColor();
+    numLines = 0;
+    
   if (key == '2')
     mode = 2;
     fill(0,0,0);
